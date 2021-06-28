@@ -1,8 +1,10 @@
+[![GitHub license](https://img.shields.io/github/license/ljcanales/redirect-to?style=plastic)](https://github.com/ljcanales/redirect-to/blob/main/LICENSE)
+
 # redirect-to
 A simple NodeJS application that redirects you to the link specified in the `redirect-links.json` file.
 
 
-## Edit redirections
+## Usage
 Edit the `redirect-links.json` file
 ```
 {
@@ -29,7 +31,9 @@ Example:
 }
 ```
 
-## Running locally
+## Installation
+> Running locally
+
 Clone repository
 ```
 git clone https://github.com/ljcanales/redirect-to
