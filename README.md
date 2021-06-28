@@ -14,7 +14,12 @@ Edit the `redirect-links.json` file
 }
 ```
 
-So that, `example-link-1-name` redirects to `example-link-1-url`
+So that,
+- `/example-link-1-name` redirects to `example-link-1-url`
+- `/example-link-2-name` redirects to `example-link-2-url`
+- `/example-link-3-name` redirects to `example-link-3-url`
+- `/example-link-4-name` redirects to `example-link-4-url`
+- `/example-link-5-name` redirects to `example-link-5-url`
 
 Example:
 ```
