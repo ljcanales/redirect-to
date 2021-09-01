@@ -6,7 +6,7 @@ const routes = require('./routes/index.js');
 app.set('port', process.env.PORT || 3000);
 
 // routes
-app.use("/", routes);
+app.use(routes);
 
 app.listen(app.get('port'), () => {
     console.log(`Server running on port ${app.get('port')} ...`);
