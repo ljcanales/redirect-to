@@ -5,10 +5,8 @@ const redirectLinks =  require('../redirect-links.json');
 
 router.get('/:linkName', (req, res) => {
     const { linkName } = req.params;
-    return res.redirect(redirectLinks[linkName]);
-});
-router.get('/', (req, res) => {
-    return res.send("Hello World");
+    const redirection = redirectLinks[linkName]
+    return res.writeHead(302, {Location: redirection}).end();
 });
 
 module.exports = router;
